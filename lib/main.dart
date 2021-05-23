@@ -29,30 +29,30 @@ class _MyAppState extends State<MyApp> {
 
   final _questions = const [
     {
-      "questionT": "What is your favourite?",
+      "questionT": "What is your favourite colour?",
       "answers": [
-        {'text': "red", 'score': 100},
-        {'text': "blue", 'score': 100},
-        {'text': 'green', 'score': 10},
-        {'text': 'yellow', 'score': 10}
+        {'text': "red", 'score': 1},
+        {'text': "blue", 'score': 0},
+        {'text': 'green', 'score': 0},
+        {'text': 'yellow', 'score': 0}
       ]
     },
     {
       "questionT": "What is your favourite animal??",
       "answers": [
-        {'text': "rabbit", 'score': 10},
-        {'text': "dog", 'score': 10},
-        {'text': 'cat', 'score': 10},
-        {'text': 'lion', 'score': 10}
+        {'text': "rabbit", 'score': 0},
+        {'text': "dog", 'score': 1},
+        {'text': 'cat', 'score': 0},
+        {'text': 'lion', 'score': 0}
       ]
     },
     {
       "questionT": "What is your favourite game?",
       "answers": [
-        {'text': "cards", 'score': 10},
-        {'text': "monopoly", 'score': 10},
-        {'text': 'LUDO', 'score': 10},
-        {'text': 'chess', 'score': 10}
+        {'text': "cards", 'score': 1},
+        {'text': "monopoly", 'score': 0},
+        {'text': 'LUDO', 'score': 0},
+        {'text': 'chess', 'score': 0}
       ]
     },
   ];

@@ -7,7 +7,16 @@ class Result extends StatelessWidget {
   const Result(this.resultScore, this.resetQuiz);
 
   String get resultPhrase {
-    var resultText = 'You did it !!';
+    var resultText;
+    if (resultScore ==0) {
+      resultText = 'Your score was 0/3';
+    } else if (resultScore ==1) {
+      resultText = 'Your score was 1/3';
+    }else if (resultScore ==2) {
+      resultText = 'Your score was 2/3';
+    }if (resultScore ==3) {
+      resultText = 'Your score was 3/3';
+    }
 
     return resultText;
   }
@@ -23,7 +32,7 @@ class Result extends StatelessWidget {
           Text(
             resultPhrase,
             style: TextStyle(
-              fontSize: 36,
+              fontSize: 38,
               color: Colors.blue,
             ),
           ),
